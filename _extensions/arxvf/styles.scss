@@ -4,7 +4,6 @@
 
 /*-- scss:rules --*/
 
-
 h1, h2, h3, h4, h5, h6 {
   color:#06080F;
   font-family:'Alegreya Sans', sans-serif;
@@ -17,4 +16,44 @@ body {
   text-align: justify;
 }
 
+/* Make the entire title-block-header a unified blue band */
+#title-block-header {
+  background-color: #15048f;
+  color: #ffffff;
+  padding: 1rem 2rem 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Labels: AUTHOR, AFFILIATION, ABSTRACT, KEYWORDS */
+#title-block-header .quarto-title-meta-heading,
+#title-block-header .abstract-title,
+#title-block-header p.keywords-label {
+  color: #a0b4ff;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.2rem;
+}
+
+/* All text content inside */
+#title-block-header .quarto-title-meta-contents,
+#title-block-header .quarto-title-meta-contents p,
+#title-block-header .abstract p,
+#title-block-header p {
+  color: #ffffff;
+}
+
+/* Remove any inner background/border that breaks the unified look */
+#title-block-header .quarto-title-meta,
+#title-block-header .abstract {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Keywords specifically */
+#title-block-header .keywords {
+  color: #ffffff;
+}
 

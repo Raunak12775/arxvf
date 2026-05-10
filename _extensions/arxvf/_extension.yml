@@ -31,5 +31,7 @@ contributes:
       csl: american-physical-society-et-al.csl
       toc: true
       toc-location: left
+      title-block-banner: '#15048f'
+      title-block-banner-color: white
       embed-resources: true
-      theme: [cosmo, styles.scss]
+      theme: [simple, styles.scss]
