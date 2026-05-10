@@ -7,11 +7,13 @@
 h1, h2, h3, h4, h5, h6 {
   color:#06080F;
   font-family:'Alegreya Sans', sans-serif;
+  text-align: left;
 }
 
 body {
   background-color:#eef0f3; 
   font-family:'Alegreya', serif;
+  font-size: 1.3em;
   color:#15048f; 
   text-align: justify;
 }
@@ -24,36 +26,42 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Labels: AUTHOR, AFFILIATION, ABSTRACT, KEYWORDS */
-#title-block-header .quarto-title-meta-heading,
-#title-block-header .abstract-title,
-#title-block-header p.keywords-label {
-  color: #a0b4ff;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 0.2rem;
-}
+// /* Labels: AUTHOR, AFFILIATION, ABSTRACT, KEYWORDS */
+// #title-block-header .quarto-title-meta-heading,
+// #title-block-header .abstract-title,
+// #title-block-header p.keywords-label {
+//   color: white;
+//   font-family:'Alegreya Sans', sans-serif;
+//   font-size: 0.72rem;
+//   text-transform: uppercase;
+//   letter-spacing: 0.08em;
+//   margin-bottom: 0.2rem;
+// }
 
-/* All text content inside */
-#title-block-header .quarto-title-meta-contents,
-#title-block-header .quarto-title-meta-contents p,
-#title-block-header .abstract p,
-#title-block-header p {
-  color: #ffffff;
-}
+// /* All text content inside */
+// #title-block-header .quarto-title-meta-contents,
+// #title-block-header .quarto-title-meta-contents p,
+// #title-block-header .abstract p,
+// #title-block-header p {
+//   color: #ffffff;
+//   font-family:'Alegreya Sans', sans-serif;
+// }
 
-/* Remove any inner background/border that breaks the unified look */
-#title-block-header .quarto-title-meta,
-#title-block-header .abstract {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  margin: 0;
-}
+// /* Remove any inner background/border that breaks the unified look */
+// #title-block-header .quarto-title-meta,
+// #title-block-header .abstract {
+//   background-color: white;
+//   color: black;
+//   font-family:'Alegreya Sans', sans-serif;
+//   border: none;
+//   padding: 0;
+//   margin: 0;
+// }
 
-/* Keywords specifically */
-#title-block-header .keywords {
-  color: #ffffff;
-}
+// /* Keywords specifically */
+// #title-block-header .keywords {
+//   color: #ffffff;
+//   font-family:'Alegreya Sans', sans-serif;
+// }
+
 

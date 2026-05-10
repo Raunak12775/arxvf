@@ -12,14 +12,12 @@ author:
     orcid: 0009-0002-3513-3287
     email: farhazraunak@gmail.com
 abstract: |
-  This document is a template demonstrating the Arxvf format.
+  This document is a template demonstrating the Arxvf format. This is an example of how to use this template to render journal articles. This template is inspired by the arXiv rticles template for rmarkdown, repurposed for the Quarto publishing system. This quarto extension format supports PDF and HTML outputs. This template is primarily focused on generating acceptable outputs from Quarto, but renders an acceptable HTML output using the standard Quarto options.
+
 keywords: [template, demo]
 bibliography: bibliography.bib
 format:
   arxvf-html: default
-  arxvf-pdf:
-    linenumbers: false
-    doublespacing: false
   arxvf-typst: default
 ---
 

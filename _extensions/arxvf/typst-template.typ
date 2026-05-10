@@ -36,7 +36,7 @@ align(center)[
   #vspacing
   #text(10pt, font: "New Computer Modern", fill: inkblue)[
     *Raunak Farhaz*\
-    Independent Researcher, Berlin\
+    Independent Researcher, Berlin, DE\
     #show link: set text(font: "Latin Modern Mono", weight: "bold", fill: maroon)
     #show link: underline
     #link("mailto:farhazraunak@gmail.com")
@@ -58,6 +58,5 @@ abstract-fn([#abstract])
 vspacing
 
 body
-
 
 }
