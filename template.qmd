@@ -1,10 +1,5 @@
 ---
 title: Title of the article
-format:
-  arxvf-html: default
-  arxvf-pdf:
-    linenumbers: false
-    doublespacing: false
 author:
   - name: Raunak Farhaz
     affiliations:
@@ -20,6 +15,12 @@ abstract: |
   This document is a template demonstrating the Arxvf format.
 keywords: [template, demo]
 bibliography: bibliography.bib
+format:
+  arxvf-html: default
+  arxvf-pdf:
+    linenumbers: false
+    doublespacing: false
+  arxvf-typst: default
 ---
 
 # Introduction {#sec-intro}
